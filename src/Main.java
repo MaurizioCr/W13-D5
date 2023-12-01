@@ -1,3 +1,4 @@
+import Entities.Immagine;
 import Entities.RegistrazioneAudio;
 import Entities.Video;
 import Entities.elementoMultimediale;
@@ -13,7 +14,15 @@ public class Main {
         newAudio.volumeUp();
         newAudio.volumeDown();
 
-        Video newVideo = new Video("Media 3", 4, 50);
+        Video newVideo = new Video("Media 3", 4, 10, 12);
+       newVideo.play();
+       newVideo.brightnessUp();
+       newVideo.brightnessDown();
+
+        Immagine newImmagine = new Immagine("Media 4",0);
+        newImmagine.show();
+        newImmagine.brightnessDown();
+        newImmagine.brightnessUp();
 
     }
 }

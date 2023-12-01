@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="524bd000-f8aa-4c3c-8ba8-96e4b49c089c" name="Changes" comment="Ottimizzazione e pulizia codice">
-      <change afterPath="$PROJECT_DIR$/src/interfaces/Luminosità.java" afterDir="false" />
+    <list default="true" id="524bd000-f8aa-4c3c-8ba8-96e4b49c089c" name="Changes" comment="Adjustment + entità video">
+      <change afterPath="$PROJECT_DIR$/src/Entities/Immagine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entities/RegistrazioneAudio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/RegistrazioneAudio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entities/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/Video.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entities/elementoMultimediale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/elementoMultimediale.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,9 +20,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="package-info" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -80,7 +81,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701430848401</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adjustment + entità video">
+      <option name="closed" value="true" />
+      <created>1701432250648</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701432250648</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,6 +107,7 @@
     <MESSAGE value="Metodo play" />
     <MESSAGE value="elemento RegistrazioneAudio terminato" />
     <MESSAGE value="Ottimizzazione e pulizia codice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ottimizzazione e pulizia codice" />
+    <MESSAGE value="Adjustment + entità video" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adjustment + entità video" />
   </component>
 </project>

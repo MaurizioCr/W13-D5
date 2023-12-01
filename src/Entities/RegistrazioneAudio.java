@@ -31,7 +31,7 @@ public class RegistrazioneAudio extends elementoMultimediale {
             System.out.println(titolo);
 
             //for per la stampa dei punti esclamativi
-            for (int j=0; j<minutaggio; j++){
+            for (int j=0; j<volume; j++){
                 System.out.println("!");}
         }
     }
