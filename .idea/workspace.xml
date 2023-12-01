@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="524bd000-f8aa-4c3c-8ba8-96e4b49c089c" name="Changes" comment="Ottimizzazione e pulizia codice">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entities/Video.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/Volume.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/Luminosità.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entities/RegistrazioneAudio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/RegistrazioneAudio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entities/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/Video.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RegistrazioneAudio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/RegistrazioneAudio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elementoMultimediale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/elementoMultimediale.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Interface" />
         <option value="package-info" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -74,7 +72,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701428937890</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Ottimizzazione e pulizia codice">
+      <option name="closed" value="true" />
+      <created>1701430848401</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701430848401</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
