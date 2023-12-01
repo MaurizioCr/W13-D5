@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="524bd000-f8aa-4c3c-8ba8-96e4b49c089c" name="Changes" comment="Adjustment + entità video">
-      <change afterPath="$PROJECT_DIR$/src/Entities/Immagine.java" afterDir="false" />
+    <list default="true" id="524bd000-f8aa-4c3c-8ba8-96e4b49c089c" name="Changes" comment="Entità immagine">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entities/RegistrazioneAudio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/RegistrazioneAudio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entities/Immagine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/Immagine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entities/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/Video.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entities/elementoMultimediale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/elementoMultimediale.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +87,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701432250648</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Entità immagine">
+      <option name="closed" value="true" />
+      <created>1701435021632</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701435021632</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,6 +114,7 @@
     <MESSAGE value="elemento RegistrazioneAudio terminato" />
     <MESSAGE value="Ottimizzazione e pulizia codice" />
     <MESSAGE value="Adjustment + entità video" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adjustment + entità video" />
+    <MESSAGE value="Entità immagine" />
+    <option name="LAST_COMMIT_MESSAGE" value="Entità immagine" />
   </component>
 </project>

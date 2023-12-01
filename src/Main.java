@@ -1,28 +1,50 @@
 import Entities.Immagine;
 import Entities.RegistrazioneAudio;
 import Entities.Video;
-import Entities.elementoMultimediale;
 
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
+        int opzione;
 
-
+        // Creazioni media
         RegistrazioneAudio newAudio = new RegistrazioneAudio("Media 2", 5, 10);
-        newAudio.play();
-        newAudio.volumeUp();
-        newAudio.volumeDown();
-
         Video newVideo = new Video("Media 3", 4, 10, 12);
-       newVideo.play();
-       newVideo.brightnessUp();
-       newVideo.brightnessDown();
+        Immagine newImmagine = new Immagine("Media 4", 0);
 
-        Immagine newImmagine = new Immagine("Media 4",0);
-        newImmagine.show();
-        newImmagine.brightnessDown();
-        newImmagine.brightnessUp();
+        // Scanner
+        Scanner scanner = new Scanner(System.in);
+
+        do {
+            // Scelta opzione
+            System.out.println("Scrivi 1 per ascoltare l'audio, 2 per visualizzare il video, 3 per visualizzare l'immagine, 4 per uscire");
+            opzione = scanner.nextInt();
+
+            switch (opzione) {
+                case 1:
+                    newAudio.play();
+                    newAudio.volumeUp();
+                    newAudio.volumeDown();
+                    break;
+                case 2:
+                    newVideo.play();
+                    newVideo.brightnessUp();
+                    newVideo.brightnessDown();
+                    break;
+                case 3:
+                    newImmagine.show();
+                    newImmagine.brightnessUp();
+                    newImmagine.brightnessDown();
+                    break;
+                case 4:
+                    System.out.println("Chiusura player.");
+                    break;
+                default:
+                    System.out.println("Scelta non valida. Riprova.");
+            }
+        } while (opzione != 4);
+
 
     }
 }

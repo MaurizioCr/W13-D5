@@ -31,7 +31,7 @@ public class Video extends elementoMultimediale {
 
         //Luminosità abbassata
     public void brightnessDown() {
-        bright+=1;
+        bright-=1;
         System.out.println("Hai abbassato la luminosità: "+ bright);
     }
 
