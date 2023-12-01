@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="524bd000-f8aa-4c3c-8ba8-96e4b49c089c" name="Changes" comment="Metodo play">
-      <change afterPath="$PROJECT_DIR$/src/RegistrazioneAudio.java" afterDir="false" />
+    <list default="true" id="524bd000-f8aa-4c3c-8ba8-96e4b49c089c" name="Changes" comment="Ottimizzazione e pulizia codice">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entities/Video.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/Volume.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RegistrazioneAudio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/RegistrazioneAudio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/elementoMultimediale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/elementoMultimediale.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
+        <option value="package-info" />
       </list>
     </option>
   </component>
@@ -37,8 +43,10 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "onboarding.tips.debug.path": "/Users/maurizio/Desktop/Epicode/BackEnd/W13/W13-D5/src/Main.java"
+    "onboarding.tips.debug.path": "/Users/maurizio/Desktop/Epicode/BackEnd/W13/W13-D5/src/Main.java",
+    "settings.editor.selected.configurable": "inlay.hints"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -58,7 +66,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701427213249</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="elemento RegistrazioneAudio terminato">
+      <option name="closed" value="true" />
+      <created>1701428937890</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701428937890</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -74,6 +90,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Metodo play" />
-    <option name="LAST_COMMIT_MESSAGE" value="Metodo play" />
+    <MESSAGE value="elemento RegistrazioneAudio terminato" />
+    <MESSAGE value="Ottimizzazione e pulizia codice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ottimizzazione e pulizia codice" />
   </component>
 </project>

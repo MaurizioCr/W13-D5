@@ -1,6 +1,9 @@
-public class elementoMultimediale {
+package Entities;
+
+public abstract class elementoMultimediale {
     String titolo;
     int minutaggio;
+
 
     public elementoMultimediale(String titolo, int minutaggio){
         this.titolo=titolo;

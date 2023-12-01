@@ -1,16 +1,23 @@
-public class RegistrazioneAudio extends elementoMultimediale{
+package Entities;
+
+import interfaces.Volume;
+
+public class RegistrazioneAudio extends elementoMultimediale {
     int volume;
     public RegistrazioneAudio(String titolo, int minutaggio) {
         super(titolo, minutaggio);
     }
+
+    //alzare volume
     public void volumeUp(){
         volume+=1;
         System.out.println("Hai alzato il volume: "+ volume);
     }
 
+    //abbassare volume
     public void volumeDown(){
-        volume-=1;
-        System.out.println("Hai abbassato il volume: "+ volume);
+            volume-=1;
+            System.out.println("Hai alzato il volume: "+ volume);
     }
 
     @Override
